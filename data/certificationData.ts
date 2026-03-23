@@ -2,6 +2,24 @@ import type { Certification } from '@/types/Certification';
 
 export const certifications: Certification[] = [
   {
+    name: 'Professional Cloud Developer Certification',
+    issuingOrganization: 'Google Cloud',
+    organizationIcon: 'devicon:googlecloud',
+    issueDate: '2026/02/17',
+    expirationDate: '2028/02/17',
+    credentialId: 'c1c20b89-c330-495c-9bc3-f8f7fdfb00c2',
+    credentialUrl: 'https://www.credly.com/badges/c1c20b89-c330-495c-9bc3-f8f7fdfb00c2',
+  },
+  {
+    name: 'Generative AI Leader Certification',
+    issuingOrganization: 'Google Cloud',
+    organizationIcon: 'devicon:googlecloud',
+    issueDate: '2025/12/28',
+    expirationDate: '2028/12/28',
+    credentialId: 'f368e44c-998f-4d0c-944c-9648f0db028c',
+    credentialUrl: 'https://www.credly.com/badges/f368e44c-998f-4d0c-944c-9648f0db028c',
+  },
+  {
     name: 'Business Japanese Proficiency Test (BJT) 417/800',
     issuingOrganization: 'Japan External Trade Organization (JETRO)',
     issueDate: '2024/04/27',
@@ -12,6 +30,7 @@ export const certifications: Certification[] = [
     organizationIcon: 'devicon:googlecloud',
     issueDate: '2024/03/31',
     expirationDate: '2026/03/31',
+    credentialId: '7b8f527c-21cc-43cb-b045-808c8f3bad49',
     credentialUrl: 'https://www.credly.com/badges/7b8f527c-21cc-43cb-b045-808c8f3bad49',
   },
   {
@@ -20,6 +39,7 @@ export const certifications: Certification[] = [
     organizationIcon: 'devicon:googlecloud',
     issueDate: '2023/12/27',
     expirationDate: '2026/02/07',
+    credentialId: '6944180f-bdfa-48bb-b14c-c6a0868e936f',
     credentialUrl: 'https://www.credly.com/badges/6944180f-bdfa-48bb-b14c-c6a0868e936f',
   },
   {
